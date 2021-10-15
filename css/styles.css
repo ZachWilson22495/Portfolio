@@ -1,3 +1,61 @@
 body {
   background-color: aqua;
+  font: #001b4d
+}
+
+h1 {
+text-align: center;
+}
+
+.list {
+  text-decoration: underline;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+.photo {
+  float: right;
+  width: 40%;
+  margin: 2%;
+  border: solid rgb(90, 49, 25); 
+  border-width: 10%;
+  background-color: cornflowerblue;
+}
+
+.right {
+  font-size: large; 
+  float: right;
+  width: 45%;
+  border: solid rgb(90, 49, 25);
+  border-width: 5%;
+  padding: 1%;
+  margin: 2%;
+  background-color: #5fcdf8;
+  font-weight: 600;
+}
+
+.hobbies {
+  float: right;
+  width: 45%;
+  border: solid rgb(90, 49, 25);
+  border-width: 5%;
+  padding: 0.5%;
+  margin: 2%;
+  background-color: #5fcdf8;
+}
+
+.repository {
+  float: left;
+  width: 45%;
+  border: solid rgb(90, 49, 25);
+  border-width: 5%;
+  padding: 0.5%;
+  margin: 1%;
+  background-color: #5fcdf8;
+}
+
+.header {
+  text-align: center; 
+  font-size: larger;
+  font-weight: 700;
 }
